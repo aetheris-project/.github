@@ -69,6 +69,8 @@ code, UI and documentation.
 # Automated install on any OS (wizard or non-interactive)
 git clone https://github.com/aetheris-project/aetheris-installer.git
 cd aetheris-installer
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -e .
 python -m aetheris_installer --yes
 
 # Or run the platform in development
