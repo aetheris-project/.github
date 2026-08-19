@@ -43,6 +43,8 @@ code, UI and documentation.
 | [aetheris-website](https://github.com/aetheris-project/aetheris-website) | Marketing site, interactive product demo, dynamic SEO and landing page. | Next.js 14, Tailwind CSS, `@vercel/og` |
 | [aetheris-docs](https://github.com/aetheris-project/aetheris-docs) | Wiki, per-OS installation guides, developer SDK and OpenAPI specifications. | Nextra 2 |
 | [aetheris-installer](https://github.com/aetheris-project/aetheris-installer) | Automated cross-platform installer: archinstall-style TUI wizard plus non-interactive `--yes` mode with native systemd, launchd and Windows service generation. | Python 3.10+ |
+| [aetheris-ops](https://github.com/aetheris-project/aetheris-ops) | Host optimization scanner and update manager: health score, apt/brew/winget update detection, and a scheduled GitHub Actions workflow that publishes a report badge and opens issues for critical findings. | Python 3.10+, GitHub Actions |
+| [aetheris-themes](https://github.com/aetheris-project/aetheris-themes) | Theme guide, templates, ready-made themes (emerald, indigo, amber, aurora) and a validator for the token-driven design system. | Python 3.10+, CSS tokens, JSON |
 
 ### Feature highlights
 
@@ -62,6 +64,11 @@ code, UI and documentation.
   telemetry and email delivery.
 - Self-contained Python backend (FastAPI + SQLite) for demos and development,
   plus a fully automated installer for Linux, macOS and Windows.
+- Ops tooling: a stdlib host scanner that scores the machine, detects
+  optimization opportunities and pending updates, and publishes the
+  results to GitHub as a badge and auto-opened issues.
+- A complete theming kit: token reference, templates, ready-made themes
+  and a validator for the dark/light/system design system.
 
 ## Getting started
 
