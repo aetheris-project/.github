@@ -5,7 +5,7 @@
 <h3 align="center">Enterprise billing and virtualization management</h3>
 
 <p align="center">
-  <strong>One control plane for billing, panels and hypervisors.</strong>
+  <strong>One control panel for billing, panels and hypervisors.</strong>
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 ## Mission
 
 Aetheris converges WHMCS, FOSSBilling, Pterodactyl Panel, Proxmox VE and
-VirtFusion into a single enterprise control plane: one billing engine, one
+VirtFusion into a single enterprise control panel: one billing engine, one
 client portal, one set of hypervisor drivers and one admin surface, with
 dynamic whitelabeling and a theme system that runs across every surface of
 the platform.
@@ -39,7 +39,7 @@ code, UI and documentation.
 
 | Repository | Description | Stack |
 | --- | --- | --- |
-| [aetheris-app](https://github.com/aetheris-project/aetheris-app) | Core billing system, admin control plane, hypervisor drivers (Pterodactyl, Proxmox VE, VirtFusion) and client portal. Includes a self-contained Python REST backend. | Next.js 14, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, Python, FastAPI |
+| [aetheris-app](https://github.com/aetheris-project/aetheris-app) | Core billing system, admin control panel, hypervisor drivers (Pterodactyl, Proxmox VE, VirtFusion) and client portal. Includes a self-contained Python REST backend. | Next.js 14, TypeScript, Prisma, PostgreSQL, Redis, BullMQ, Python, FastAPI |
 | [aetheris-website](https://github.com/aetheris-project/aetheris-website) | Marketing site, interactive product demo, dynamic SEO and landing page. | Next.js 14, Tailwind CSS, `@vercel/og` |
 | [aetheris-docs](https://github.com/aetheris-project/aetheris-docs) | Wiki, per-OS installation guides, developer SDK and OpenAPI specifications. | Nextra 2 |
 | [aetheris-installer](https://github.com/aetheris-project/aetheris-installer) | Automated cross-platform installer: archinstall-style TUI wizard plus non-interactive `--yes` mode with native systemd, launchd and Windows service generation. | Python 3.10+ |
@@ -55,7 +55,7 @@ code, UI and documentation.
   DirectAdmin backends.
 - Client portal with server lifecycle, VNC console (WebSocket token
   issuance), backups and payment methods.
-- Admin control plane: node management, allocation pools, nest and egg
+- Admin control panel: node management, allocation pools, nest and egg
   targeting, backup policies and per-client resource limits.
 - Dynamic whitelabeling: brand, accent colors, navigation and email
   templates configured at runtime; dark / light / system themes persisted
